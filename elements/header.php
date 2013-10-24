@@ -4,8 +4,7 @@
 <head>
   <?php  Loader::element('header_required'); ?>
   <link rel="stylesheet" media="screen" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('main.css')?>" />
-  <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('typography.css')?>" />
+  <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('css/theme.css')?>" />
 </head>
 <body>
   <nav>
