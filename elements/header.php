@@ -3,6 +3,7 @@
 <html lang="<?php echo LANGUAGE; ?>">
 <head>
   <?php  Loader::element('header_required'); ?>
+  <link rel="stylesheet" media="screen" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
   <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('main.css')?>" />
   <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('typography.css')?>" />
 </head>
@@ -21,6 +22,3 @@
       else echo SITE;
     ?></a>
   </h1>
-
-  <?php  if ( $ah->getTotalBlocksInArea() > 0 ): ?>
-  <?php  endif; ?>
